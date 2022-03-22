@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button {
+    /* display: inline-block; */
+    padding: 16px 32px;
+
+}
+
+
+
+form {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+}

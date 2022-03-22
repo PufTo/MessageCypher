@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,30 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
-
-<!-- THINK ABOUT LABELSSS -->
-<form>
-
-    <label>
-        Enter your message here:
-        <input type="text" class="messageToEncrypt">
-    </label>
-    <label>
-        Enter secret code:
-        <input type="text" class="secretCode">
-    </label>
-    <button class="button button-encrypt" >Encrypt</button>
-    <button class="button button-decrypt">Decrypt</button>
-    <label>
-        Your decrypted message:
-        <input type="text" class="encryptedMessage">
-    </label>
-    <button class="button button-copyMessage">Copy message</button>
-</form>
-
 <body>
+    <!-- THINK ABOUT LABELSSS -->
+<div>
+    <form>
+        <label>
+            Enter your message here:
+            <input type="text" class="messageToEncrypt">
+        </label>
+        <label>
+            Enter secret code:
+            <input type="text" class="secretCode">
+        </label>
+        <div>
+        <button class="button button-encrypt" >Encrypt</button>
+        <button class="button button-decrypt">Decrypt</button>
+        </div>
+        <label>
+            Your decrypted message:
+            <input type="text" class="encryptedMessage">
+        </label>
+        <button class="button button-copyMessage">Copy message</button>
+    </form>
+    </div>
     
 </body>
 </html>
