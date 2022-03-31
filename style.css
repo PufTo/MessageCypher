@@ -4,18 +4,100 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+    color: white;
+}
+
 .button {
     /* display: inline-block; */
-    padding: 16px 32px;
+    text-decoration: none;
+  font-size: 2.4rem;
+  padding: 1.6rem 3.2rem;
+  display: inline-block;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
 
 }
 
+.button:hover {
+    background-color: aqua;
+}
 
+body {
+    font-family: 'Cormorant Garamond', serif;
+    /* font-style: italic; */
+    line-height: 1;
+    /* color: #a76b09; */
+    color: #dda74f;
+    
+  }
 
 form {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 64px;
+    margin-top: 6.4rem;
+    padding: 4.8rem 6.4rem;
+    border-radius: 6px;
+
     display: flex;
     flex-direction: column;
+    background-color: #181619;
+}
+
+h1 {
+    font-weight: 300;
+    margin-bottom: 2.4rem;
+    font-style: italic;
+}
+
+form label {
+    font-size: 3.6rem;
+    margin-bottom: 0.8rem;
+}
+
+.cypher-title {
+    font-size: 6.4rem;
+    align-self: center;
+}
+
+#cypher-message-input,
+#cypher-key-input,
+#cypher-result-text {
+    resize: none;
+    
+    padding: 0.8rem 1.6rem;
+    margin-bottom: 1.6rem;
+
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-family:inherit;
+
+    background-color: #e8e8e8;
+    color: #161108;
+}
+
+.button-list-container {
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ph-lock-simple-light,
+.ph-lock-simple-open-light,
+.ph-copy-simple-light,
+.ph-swap-light{
+    font-size: 3.2rem;
+    margin-right: 0.8rem;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
